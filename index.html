@@ -1,30 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
     <title>blog - HTML</title>
-</head>
-<body>
-  <h1>Blog sobre Linguagem de Programação </h1>  
-  <p>Neste blog vou escrever artigos relacionados a <strong>linguagens de Programação</strong> que utilizo no dia a dia do meu trabalho.</p>
-  <p>Veja a lista de posts do meu blog:</p>
-  <ul>
+  </head>
+  <body>
+    <h1>Blog sobre Linguagem de Programação</h1>
+    <p>
+      Neste blog vou escrever artigos relacionados a
+      <strong>linguagens de Programação</strong> que utilizo no dia a dia do meu
+      trabalho.
+    </p>
+    <p>Veja a lista de posts do meu blog:</p>
+    <ul>
       <li>O que é javascript?</li>
       <li>PHP é a melhor linguagem para comerçar?</li>
       <li>Pyton, a melhor linguagem para Data science?</li>
-  </ul>
-<section class="linguagemDeProgramacao">
-    <h2>O que é JavaScript?</h2>
-    <p>JavaScript é uma <strong>linguagem de programação de alto nivel</strong> criada, a principio, para ser executada em navegadores e manipular comportamentos de <em>páginas web.</em> JavaScript é uma linguagem, ...leia mais </p>
-
-
+    </ul>
+    <section class="linguagemDeProgramacao">
+      <h2>O que é JavaScript?</h2>
+      <p>
+        <img
+          style="width: 400px"
+          src="imagens/javascript1.png"
+          alt="programa javascript"
+        />
+      </p>
+      <p>
+        JavaScript é uma
+        <strong>linguagem de programação de alto nivel</strong> criada, a
+        principio, para ser executada em navegadores e manipular comportamentos
+        de <em>páginas web.</em> JavaScript é uma linguagem,<a
+          href="/programas/javascript.html"
+          >...leia mais
+        </a>
+      </p>
+    </section>
+    <section class="linguagemDeProgramacao">
+      <h2>PHP é a melhor linguagem para começar?</h2>
+      <img style="width: 400px" src="imagens/php1.png" alt="programa PHP" />
+      <p>
+        Essa é uma pergunta recorrente para os iniciantes no
+        <strong>mundo do desenvolvimento web.</strong> Por PHP ser uma linguagem
+        muito popular, muitos <em>iniciantes</em> pensam em começar a estudar
+        por ela mas,
+        <a href="/programas/php.html">...leia mais </a>
+      </p>
+    </section>
 </section>
-
-
-
-
-</body>
+<section class="linguagemDeProgramacao">
+  <h2>Python</h2>
+  <img style="width: 400px" src="imagens/python1.png" alt="programa pyton" />
+  <p>
+   Não há dúvidas que Python é a <strong>melhor linguagem </strong>para se trabalhar com Ciência de Dados, pois <em>existem dezenas de bibliotecas </em>preparadas para estatisticas e machine learning criadas com a linguagem,
+    <a href="/programas/python.html">...leia mais </a>
+  </p>
+</section>
+<p>
+    <strong>Linguagens mais Populares:</strong>
+</p>
+<ol>
+    <li>PHP</li>
+    <li>Javascript</li>
+    <li>Python</li>
+</ol>
+<p>
+    <strong>Veja o que os desenvolvedores estão dizendo:</strong>
+    <ul>
+        <li>"Essa é a minha linguagem preferida, consigo fazer tudo com ela". 
+        Elon Mush, sobre Javascript</li>
+        <li>"O windows foi criado inicialmente usando PHP". Bill Gates, sobre PHP</li>
+        <li>"Adoro Python, mas as najas são mais bonitas". Richard Rasmussen, sobre Python.</li>
+    </ul>
+</p>
+<div class="contatos">
+    <p> <strong>Se você quiser, entre em contato pelo formulário abaixo</strong></p>
+    <form action="contato">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">         
+        <br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem"></textarea>
+        <br>
+        <label for="checkbox">Deseja receber nosso newsletter?</label>
+        <input type="checkbox"/>
+        <br>
+        <label for="radio">Você gostou desta página:</label>
+        sim<input type="radio" name="newsletter"/>
+        não <input type="radio" name="newsletter"/>
+        <br>
+        <button type="submit">Enviar</button>
+        <footer>
+            <p>Siga-nos nas mídias sociais</p>
+            <a href="https://instagram.com/anndreia_santos">Instagram</a>
+        </footer>
+    </form>
+</div>
+  </body>
 </html>
